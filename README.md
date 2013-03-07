@@ -8,6 +8,6 @@ Think loading CSS after an AJAX call completes, etc.
 ## Example
 
 ```JavaScript
-$.getCSS('\styles.css');
+$.getCSS('/assets/css/styles.css');
 ```
 
