@@ -1,4 +1,13 @@
 jquery.getCSS
 =============
 
-Dynamically append stylesheets to your page.
+The $.getCSS extension allows you to dynamically append stylesheets to your page after the page has loaded.
+
+Think loading CSS after an AJAX call completes, etc.
+
+## Example
+
+```JavaScript
+$.getCSS('\styles.css');
+```
+
